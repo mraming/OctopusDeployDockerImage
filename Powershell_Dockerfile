@@ -1,0 +1,6 @@
+FROM mcr.microsoft.com/powershell:latest
+
+RUN pwsh -Command Install-Module Posh-SSH
+
+
+
