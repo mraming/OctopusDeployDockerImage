@@ -1,4 +1,4 @@
-FROM octopusdeploy/octopusdeploy:2024.4
+FROM octopusdeploy/octopusdeploy:2025.4
 
 RUN pwsh -Command set-PSRepository PSGallery -InstallationPolicy Trusted && \
     pwsh -Command Install-Module PSServu && \
