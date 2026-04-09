@@ -1,7 +1,7 @@
-FROM octopusdeploy/octopusdeploy:2024.4
+FROM octopusdeploy/octopusdeploy:2026.1
 
 RUN pwsh -Command set-PSRepository PSGallery -InstallationPolicy Trusted && \
     pwsh -Command Install-Module PSServu && \
-    pwsh -Command Install-Module Posh-SSH -RequiredVersion 3.0.8
+    pwsh -Command Install-Module Posh-SSH
 
 
